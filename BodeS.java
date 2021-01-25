@@ -9,8 +9,6 @@
 // Version 2.2.1, 12/23/2014
 // http://www.williamsonic.com
 
-package BodeSPackage;
-
 //==========================================================\\
 import javax.swing.*;
 import javax.swing.event.*;
