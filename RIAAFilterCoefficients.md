@@ -31,10 +31,11 @@ To use the BodeS Java app to plot the RIAA pre-emphasis curve used for recording
 ```
 (318e-6 1)
 ```
-- Set the "Start Freq." field to 20
+- Set the "Start Freq." field to 20.
+- Set the range control to "3 Decades".
 - Click the "Plot Response" button to redraw the plot image.
 
-![RIAA Pre-emphasis Plot]()
+![RIAA Pre-emphasis Plot](pre-emphasisRIAA.png)
 
 To use the BodeS Java app to plot the RIAA de-emphasis curve used for playback, follow these steps:
 
@@ -47,7 +48,10 @@ To use the BodeS Java app to plot the RIAA de-emphasis curve used for playback, 
 ```
 (3180e-6 1)(75e-6 1)
 ```
-- Set the "Start Freq." field to 20
+- Set the "Start Freq." field to 20.
+- Set the range control to "3 Decades".
 - Click the "Plot Response" button to redraw the plot image.
+
+![RIAA De-emphasis Plot](de-emphasisRIAA.png)
 
 It's ok to run two copies of the BodeS app, to compare the two equalization curves side-by-side. Just be sure to populate all fields in both copies.
