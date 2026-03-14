@@ -1,6 +1,11 @@
 # BodeS
 S-domain bode plot applet, as described at http://www.williamsonic.com/BodeNyquist/index.html
 
+Additional information is posted here:
+
+* [How to build and run the BodeS Java app.](HowToBuild.md)
+* [How to plot gain and phase of an RIAA equalization filter.](RIAAFilterCoefficients.md)
+
 ![Screen Capture](BodeS1.png "BodeS")
 
 BodeS was originally written to be both an application program and an applet, but applets are now deprecated so the best way to launch this is as an application at the command line.  The simplest command line in a DOS Box window would look like this, where the current working directory contains the compiled class files:
