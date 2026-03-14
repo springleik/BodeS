@@ -8,11 +8,13 @@ When playing vinyl records on a turntable, one must remember that manufacturers 
 | $T_2$  |  318  |
 | $T_3$  |   75  |
 
+The pre-emphasis curve used for recording is defined with this second-order transfer function, having two zeros and one pole:
+
 ```math
 H(s) = \frac{\left(sT_1+1\right)\left(sT_3+1\right)}{\left(sT_2+1\right)}
 ```
 
-On playback, one can then invert the transfer function to implement a de-emphasis filter, recovering the original sound with optimized dynamic range and headroom.
+On playback, one can then invert the transfer function to implement a de-emphasis filter for playback, recovering the original sound with optimized dynamic range and headroom. This transfer function has one zero and two poles:
 
 ```math
 H(s) = \frac{\left(sT_2+1\right)}{\left(sT_1+1\right)\left(sT_3+1\right)}
